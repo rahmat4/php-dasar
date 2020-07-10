@@ -6,6 +6,6 @@
     <title>post</title>
 </head>
 <body>
-    <h1>Selamat Datang, <?php echo $_POST["nama"];?> ! </h1>
+    <h1>Selamat Datang, <?php echo $_POST["name"];?> ! </h1>
 </body>
 </html>

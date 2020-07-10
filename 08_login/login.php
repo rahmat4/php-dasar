@@ -1,8 +1,8 @@
 <?php
     // cek apakah tombol submit sudah di tekan
-    if (isset($_POST["submit"])) {
+    if (isset($_POST["submite"])) {
         // cek username && password
-        if($_POST["username"] == "rahmat" && $_POST["password"] == "rahmat"){
+        if($_POST["username"] == "root" && $_POST["password"] == "root"){
             // jika benar kita, redirect ke halaman admin
             header("Location: admin.php");
             exit;
@@ -36,7 +36,7 @@
             <input type="password" name="password" id="username">
         </li>
         <li>
-            <button type="submit" name="submit">Login</button>
+            <button type="submit" name="submite">Login</button>
         </li>
     </form>
     </ul>

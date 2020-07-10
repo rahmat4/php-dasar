@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="Main3.php" method="POST">
-        Masukan Nama : <input type="text" name="nama">
+        Masukan Nama : <input type="text" name="name">
         <br>
         <button type="submit" name="submit">Kirim</button>
     </form>
